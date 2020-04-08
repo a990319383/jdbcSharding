@@ -33,6 +33,6 @@
         select
         <include refid="Base_Column_List" />
         from  t_order
-        where   passWord >3
+        where   passWord >3 order  by passWord desc
     </select>
 </mapper>
