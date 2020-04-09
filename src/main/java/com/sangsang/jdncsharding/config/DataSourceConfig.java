@@ -38,7 +38,7 @@ public class DataSourceConfig {
                 .driverClassName("com.mysql.jdbc.Driver")
                 .username("root")
                 .password("123456")
-                .url("jdbc:mysql://112.124.27.136:3306/test_msg1").build();
+                .url("jdbc:mysql://112.124.27.136:3306/test_msg1?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&serverTimezone=GMT%2B8").build();
 //        return DataSourceBuilder.create().build();
     }
     /**
@@ -52,7 +52,7 @@ public class DataSourceConfig {
                 .driverClassName("com.mysql.jdbc.Driver")
                 .username("root")
                 .password("123456")
-                .url("jdbc:mysql://112.124.27.136:3306/test_msg2").build();
+                .url("jdbc:mysql://112.124.27.136:3306/test_msg2?useUnicode=true&characterEncoding=utf-8&rewriteBatchedStatements=true&autoReconnect=true&serverTimezone=GMT%2B8").build();
 //        return DataSourceBuilder.create().build();
     }
 

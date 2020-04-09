@@ -49,4 +49,9 @@ public class UserController {
         userService.updateTransactional(user2);
         return "test";
     }
+    @RequestMapping("/tran")
+    public  String  testTrance(){
+        userService.testtrance();
+        return "成功";
+    }
 }
